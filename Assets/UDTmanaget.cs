@@ -1,7 +1,6 @@
 using UnityEngine;
 using Vuforia;
-// при исполнении даного скрипта может появиться ошибка no matching Trackable found in DataSet! 
-// решение VuforiaConfiguration->Databases отключить все данные!!!
+
 public class UDTmanaget : MonoBehaviour, IUserDefinedTargetEventHandler
 {
     UserDefinedTargetBuildingBehaviour UDT_BuildingBehaviour;
